@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id="preloader">
+        <div class="loader">
+            <div class="honeycomb">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="loader.js"></script>
+    <header>
+        <div class="fond">
+            <img src="image/DALL·E 2024-08-17 06.31.51 - A top-down view of a very dark workspace with a sleek, minimalist setup. The scene includes a closed laptop, a monitor, and a mouse on a dark desk. Th.png" alt="">
+            <div class="text">
+                <p class="name">By Papy</p>
+                <h1>DEVELOPPEUR <span class="span">-</span>INFORMATIQUE <br> WEB</h1>
+                <p>E-Commerce , Portfolio , Site Vitrine</p>
+            </div>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="navbar"> 
+            <nav>
+                <ul id="menuList">
+                    <li><a href="#" class="icon"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="#service">SERVICES</a></li>
+                    <li><a href="#compétence">COMPETENCES</a></li>
+                    <li><a href="#propos">À PROPOS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            
+            <div class="scroll-button" onclick="scrollToSection('#service')">
+                <i class="chevron-down"></i>
+            </div>
+        </div>
+    </header>
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.querySelector(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+        </script>
+        
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+    
+    <script src="script.js"></script>
+    <script>
+       document.querySelector('.menu-icon').addEventListener('click', function() { 
+    const nav = document.querySelector('header nav');
+    nav.classList.toggle('show'); 
+});
+    </script> 
+    
+    <section class="services" id="service">
+        <div class="contend_text">
+            <h1>NOS SERVICES</h1>
+            <p>Des solutions taillées pour vous.</p>
+        </div>
+        <div class="text_info">
+            <div class="text1">
+                <div class="hidden-text">
+                    <h1 >GESTION DE PROJETS WEB</h1>
+                   
+                    <p >Site vitrine, corporate, évènementiel, <br>
+                       e-commerce, intranet, application mobile</p>
+                 </div>
+       
+                   <div class="hidden-text">
+                       <h1>INTÉGRATION WEB</h1>
+                      
+                       <p >Implémentations HTML / CSS <br> conformes aux standards du Web.</p>
+                    </div>
+       
+                      <div class="hidden-text">
+                       <h1 >DÉVELOPPEMENTS PERSONALISER</h1>
+                       <p >Des services alignés à votre secteur d’activité, <br> programmes & outils sur mesure.</p>
+                      </div>
+       
+                      <div class="hidden-text">
+                        <h1>SEO NATUREL</h1>
+                        <p >Contenu bien structuré pour des <br> pages claires et un référencement efficace.</p>
+                      </div>
+        </div>
+           
+               
+               <div class="image"><img src="image/two-phone-mockup-no-background-free-png-removebg-preview.png" alt=""></div>
+            <div class="text2">
+                <div class="hidden-text">
+                    <h1 >CRÉATION GRAPHIQUE & WEBDESIGN</h1>
+                   
+                    <p >Logos, templates Web, sites publicitaires, <br>
+                        cartes de visite, newsletters...</p>
+                 </div>
+
+                 <div class="hidden-text">
+                    <h1>RAPIDITÉ DES PAGES</h1>
+                   
+                    <p >Effets et animations visuels subtils <br>  pour enrichir votre projet.</p>
+                 </div>
+
+                 <div class="hidden-text">
+                    <h1 >PANEL D'ADMINISTRATION</h1>
+                   
+                    <p >Des outils dédiés pour optimiser le <br> bon fonctionnement de votre entreprise.</p>
+                 </div>
+
+                 <div class="hidden-text">
+                    <h1 >RESPONSIVE DESIGN</h1>
+                   
+                    <p >Compatible tous supports, tablette & <br> application mobile.</p>
+                 </div>
+            </div>
+              
+        </div>
+    </section>
+<section class="responsive">
+    <div class="fond">
+        <img src="image/pixelcut-export.png" alt="">
+    </div>
+    <div class="responsive_contend">
+        <p>Compatible Mobile, Tablettes & PC</p>
+        <h1>Développement Web Responsive</h1>
+    </div>
+</section>
+<section class="compétence" id="compétence">
+     <div class="contend">
+        <div class="compétence_text">
+            <h1>SKILLS</h1>
+            <p>Des skills mises à votre service.</p>
+        </div>
+     </div>
+    <div class="contend_chart">
+       <div class="carte">
+          <h1>HTML</h1>
+           <div class="cercle-progression">
+            <img src="images icons/pixelcut-export.png" alt=""> 
+            </div>
+            <img class="logo-html" src="images icons/icons8-html-5-48.png" alt="Logo HTML">
+       </div>
+
+       <div class="carte">
+        <h1>CSS</h1>
+         <div class="cercle-progression">
+            <img src="images icons/pixelcut-export.png" alt=""> 
+          </div>
+          <img class="logo-html" src="images icons/file (1).png" alt="Logo HTML">
+     </div>
+
+       <div class="carte">
+        <h1>Java Script</h1>
+         <div class="cercle-progression">
+            <img src="images icons/pixelcut-export.png" alt=""> 
+          </div>
+          <img class="logo-html" src="images icons/js.png" alt="Logo HTML">
+        </div>
+
+        <div class="carte">
+            <h1>Vue.Js</h1>
+             <div class="cercle-progression">
+                <img src="images icons/pixelcut-export.png" alt=""> 
+              </div>
+              <img class="logo-html" src="images icons/vue.png" alt="Logo HTML">
+         </div>
+
+        <div class="carte">
+            <h1>MySQL</h1>
+             <div class="cercle-progression">
+                <img src="images icons/pixelcut-export.png" alt=""> 
+              </div>
+              <img class="logo-html" src="images icons/mysql.png" alt="Logo HTML">
+        </div>
+
+        <div class="carte">
+            <h1>MongoDB</h1>
+             <div class="cercle-progression">
+                <img src="images icons/pixelcut-export.png" alt=""> 
+              </div>
+              <img class="logo-html" src="images icons/Mongo.png" alt="Logo HTML">
+        </div>
+
+        <div class="carte">
+            <h1>Node.Js</h1>
+            <div class="cercle-progression">
+                <img src="images icons/pixelcut-export.png" alt=""> 
+            </div>
+              <img class="logo-html" src="images icons/node.png" alt="Logo HTML">
+        </div>
+
+        <div class="carte">
+            <h1>GIT</h1>
+            <div class="cercle-progression">
+                <img src="images icons/pixelcut-export.png" alt=""> 
+            </div>
+              <img class="logo-html" src="images icons/Git_icon.svg-removebg-preview.png" alt="Logo HTML">
+        </div>
+    </div>
+</section>
+<section class="short">
+    <div class="background">
+        <img src="image/DALL·E 2024-08-17 06.31.51 - A top-down view of a very dark workspace with a sleek, minimalist setup. The scene includes a closed laptop, a monitor, and a mouse on a dark desk. Th.png" alt="">
+        <div class="containe">
+            <h1>❝ Développeur Informatique Indépendant ❞</h1>
+            <div class="info">
+               <div class="notification">
+                  <div class="badge">1</div>
+                  <div class="icon"><i class="fa-solid fa-mug-saucer"></i></div>
+                  <p>CAFÉ</p>
+                </div>
+
+                <div class="notification">
+                    <div class="badge">2</div>
+                    <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <p>ANALYSE</p>
+                </div>
+
+                <div class="notification">
+                    <div class="badge">3</div>
+                    <div class="icon"><i class="fa-solid fa-brush"></i></div>
+                    <p>DESIGN</p>
+                </div>
+
+                <div class="notification">
+                    <div class="badge">4</div>
+                    <div class="icon"><i class="fa-solid fa-code"></i></div>
+                    <p>CODE</p>
+                </div>
+
+                <div class="notification">
+                    <div class="badge">5</div>
+                    <div class="icon"><i class="fa-solid fa-bug"></i></div>
+                    <p>TESTS</p>
+                </div>
+
+                <div class="notification">
+                    <div class="badge">6</div>
+                    <div class="icon"><i class="fa-solid fa-share-from-square"></i></div>
+                    <p>LIVRAISON</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const elements = document.querySelectorAll('.short');
+     
+        function checkVisibility() {
+            const windowHeight = window.innerHeight;
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                if (elementTop < windowHeight) {
+                    element.classList.add('visible');
+                }
+            });
+        }
+
+        checkVisibility();
+        window.addEventListener('scroll', checkVisibility);
+        window.addEventListener('load', checkVisibility);
+        
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const elements = document.querySelectorAll('.projets');
+     
+        function checkVisibility() {
+            const windowHeight = window.innerHeight;
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                if (elementTop < windowHeight) {
+                    element.classList.add('visible');
+                }
+            });
+        }
+
+        checkVisibility();
+        window.addEventListener('scroll', checkVisibility);
+        window.addEventListener('load', checkVisibility);
+        
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const elements = document.querySelectorAll('.compétence');
+     
+        function checkVisibility() {
+            const windowHeight = window.innerHeight;
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                if (elementTop < windowHeight) {
+                    element.classList.add('visible');
+                }
+            });
+        }
+
+        checkVisibility();
+        window.addEventListener('scroll', checkVisibility);
+        window.addEventListener('load', checkVisibility);
+        
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const elements = document.querySelectorAll('.responsive_contend');
+     
+        function checkVisibility() {
+            const windowHeight = window.innerHeight;
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                if (elementTop < windowHeight) {
+                    element.classList.add('visible');
+                }
+            });
+        }
+
+        checkVisibility();
+        window.addEventListener('scroll', checkVisibility);
+        window.addEventListener('load', checkVisibility);
+        
+    });
+
+    function checkVisibility() {
+    const elements = document.querySelectorAll('.services');
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const windowHeight = window.innerHeight;
+
+    elements.forEach(element => {
+        const elementTop = element.getBoundingClientRect().top + scrollTop;
+
+        if (scrollTop + windowHeight > elementTop) {
+            if (!element.classList.contains('visible')) {
+                console.log('Element is becoming visible:', element);
+            }
+            element.classList.add('visible');
+        }
+    });
+}
+
+
+window.addEventListener('load', checkVisibility);
+
+
+window.addEventListener('scroll', checkVisibility);
+
+document.addEventListener('DOMContentLoaded', function() {
+        const elements = document.querySelectorAll('.para1');
+     
+        function checkVisibility() {
+            const windowHeight = window.innerHeight;
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                if (elementTop < windowHeight) {
+                    element.classList.add('visible');
+                }
+            });
+        }
+
+        checkVisibility();
+        window.addEventListener('scroll', checkVisibility);
+        window.addEventListener('load', checkVisibility);
+        
+    });
+
+    function checkVisibility() {
+    const elements = document.querySelectorAll('.services');
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const windowHeight = window.innerHeight;
+
+    elements.forEach(element => {
+        const elementTop = element.getBoundingClientRect().top + scrollTop;
+
+        if (scrollTop + windowHeight > elementTop) {
+            if (!element.classList.contains('visible')) {
+                console.log('Element is becoming visible:', element);
+            }
+            element.classList.add('visible');
+        }
+    });
+}
+
+
+window.addEventListener('load', checkVisibility);
+
+
+window.addEventListener('scroll', checkVisibility);
+
+
+document.addEventListener('DOMContentLoaded', function() {
+        const elements = document.querySelectorAll('.para2');
+     
+        function checkVisibility() {
+            const windowHeight = window.innerHeight;
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                if (elementTop < windowHeight) {
+                    element.classList.add('visible');
+                }
+            });
+        }
+
+        checkVisibility();
+        window.addEventListener('scroll', checkVisibility);
+        window.addEventListener('load', checkVisibility);
+        
+    });
+
+    function checkVisibility() {
+    const elements = document.querySelectorAll('.services');
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const windowHeight = window.innerHeight;
+
+    elements.forEach(element => {
+        const elementTop = element.getBoundingClientRect().top + scrollTop;
+
+        if (scrollTop + windowHeight > elementTop) {
+            if (!element.classList.contains('visible')) {
+                console.log('Element is becoming visible:', element);
+            }
+            element.classList.add('visible');
+        }
+    });
+}
+
+
+window.addEventListener('load', checkVisibility);
+
+
+window.addEventListener('scroll', checkVisibility);
+
+document.addEventListener('DOMContentLoaded', function() {
+        const elements = document.querySelectorAll('.animation1');
+     
+        function checkVisibility() {
+            const windowHeight = window.innerHeight;
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                if (elementTop < windowHeight) {
+                    element.classList.add('visible');
+                }
+            });
+        }
+
+        checkVisibility();
+        window.addEventListener('scroll', checkVisibility);
+        window.addEventListener('load', checkVisibility);
+        
+    });
+
+    function checkVisibility() {
+    const elements = document.querySelectorAll('.services');
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const windowHeight = window.innerHeight;
+
+    elements.forEach(element => {
+        const elementTop = element.getBoundingClientRect().top + scrollTop;
+
+        if (scrollTop + windowHeight > elementTop) {
+            if (!element.classList.contains('visible')) {
+                console.log('Element is becoming visible:', element);
+            }
+            element.classList.add('visible');
+        }
+    });
+}
+
+
+window.addEventListener('load', checkVisibility);
+
+
+window.addEventListener('scroll', checkVisibility);
+
+document.addEventListener('DOMContentLoaded', function() {
+        const elements = document.querySelectorAll('.animation2');
+     
+        function checkVisibility() {
+            const windowHeight = window.innerHeight;
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                if (elementTop < windowHeight) {
+                    element.classList.add('visible');
+                }
+            });
+        }
+
+        checkVisibility();
+        window.addEventListener('scroll', checkVisibility);
+        window.addEventListener('load', checkVisibility);
+        
+    });
+
+    function checkVisibility() {
+    const elements = document.querySelectorAll('.services');
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const windowHeight = window.innerHeight;
+
+    elements.forEach(element => {
+        const elementTop = element.getBoundingClientRect().top + scrollTop;
+
+        if (scrollTop + windowHeight > elementTop) {
+            if (!element.classList.contains('visible')) {
+                console.log('Element is becoming visible:', element);
+            }
+            element.classList.add('visible');
+        }
+    });
+}
+
+
+window.addEventListener('load', checkVisibility);
+
+
+window.addEventListener('scroll', checkVisibility);
+
+document.addEventListener('DOMContentLoaded', function() {
+        const elements = document.querySelectorAll('.contact');
+     
+        function checkVisibility() {
+            const windowHeight = window.innerHeight;
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                if (elementTop < windowHeight) {
+                    element.classList.add('visible');
+                }
+            });
+        }
+
+        checkVisibility();
+        window.addEventListener('scroll', checkVisibility);
+        window.addEventListener('load', checkVisibility);
+        
+    });
+
+    function checkVisibility() {
+    const elements = document.querySelectorAll('.services');
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const windowHeight = window.innerHeight;
+
+    elements.forEach(element => {
+        const elementTop = element.getBoundingClientRect().top + scrollTop;
+
+        if (scrollTop + windowHeight > elementTop) {
+            if (!element.classList.contains('visible')) {
+                console.log('Element is becoming visible:', element);
+            }
+            element.classList.add('visible');
+        }
+    });
+}
+
+
+window.addEventListener('load', checkVisibility);
+
+
+window.addEventListener('scroll', checkVisibility);
+
+
+</script>
+<section class="projets">
+    <div class="proj_contend">
+        <h1>MON PROJET</h1>
+        <p>Certains projets sur lesquels j'ai travaillé</p>
+    </div>
+    <div class="card_contend">
+            <div class="card">
+               <a href="https://rdvbussines.goodbarber.app"><img src="image/pc.png" alt="" ></a>
+               <div class="contend_carte">
+                <h1>RENDEZ-VOUS D'AFFAIRES</h1>
+                <hr>
+                <h1 class="h1">DÉVELOPPEMENT WEB</h1>
+            </div>
+            </div>
+    </div>
+</section>
+<section class="propos" id="propos">
+    <div class="contend">
+        <h1>À PROPOS</h1>
+        <p>Je suis concepteur web autonome et j'adore cela !</p>
+    </div>
+    <div class="info">
+        <li> 
+            <div class="info_contend1">
+                <div class="animation1"> 
+                    <h1>Un créateur web enthousiaste !</h1>
+                </div>
+                <div class="para1">
+                    <p>Ma passion pour le développement web m’a <br> conduit à un changement 
+                        radical de parcours afin <br> de l'exploiter pleinement.</p>
+                    <p>Dès lors, j'ai tout mis en œuvre pour réussir dans <br> cette voie, tout 
+                        en prenant plaisir à chaque projet développé.</p>
+                    <p>Je décide alors de devenir <strong>développeur web indépendant</strong> <br> après plusieurs expériences
+                         réussies en tant que développeur <br> « full-stack », ce qui m’a conforté  
+                        d’explorer divers domaines !</p>
+                </div>
+            </div>
+            <div class="img"><img src="image/ordinateur-apple-nuage-ecran_1013341-218330.png" alt=""></div>
+            <div class="info_contend2">
+                <div class="animation2">
+                    <h1>Expérience solide en développement web</h1>
+                </div>
+                <div class="para2">
+                    <p>L'expérience accumulée sur divers projets me permet <br> de comprendre précisément les attentes des clients et de <br> répondre efficacement à leurs besoins .</p>
+                    <p>Du site vitrine au projet plus complexe, j'offre <br> une expertise et un développement web adaptés </p>
+                    <h1 class="space">Un tarif ajusté selon votre projet.</h1>
+                    <p class="space2">Travaillant régulièrement avec des PME, <br> associations ou particuliers.</p>
+                </div>
+            </div>
+        </li> 
+    </div>
+</section>
+<section class="délimitation">
+    <div class="fond">
+        <img src="image/pixelcut-export.png" alt="">
+    </div>
+    <div class="responsive_contend">
+        <h1>❝ Un seul interlocuteur pour un site web performant ! ❞</h1>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h1 class="name">CONTACTEZ <span>-</span> MOI</h1>
+   <div class="information">
+    <li>
+        <div class="card1">
+            <i class="fa-solid fa-map-pin"></i>
+            <p>liberté 6 Extension</p>
+            <p class="dakar">Dakar</p>
+        </div>
+    
+        <div class="card2">
+            <i class="fa-solid fa-phone"></i>
+            <p>+221  771948683</p>
+        </div>
+    
+        <div class="card3">
+            <i class="fa-regular fa-envelope"></i>
+            <p>Papytygeer69@gmail.com</p>
+        </div>
+
+        
+    </li>
+   </div>
+</section>
+<section class="footer">
+    <div class="container">
+        <li>
+            <div class="plus">
+                <h1>DÉVELOPPEUR INFORMATIQUE FREELANCE</h1>
+                <p>Développeur Web full-stack et Webdesigner indépendant, je suis prêt à collaborer sur tous <br> 
+                    types de projets de création de sites web, de développement sur-mesure <br> 
+                    ou d'applications en ligne.
+                </p>
+                <p class="second_p">Passionné par les technologies web, je mets mon expertise à <br> disposition pour répondre à 
+                  vos exigences dans divers secteurs.
+                </p>  
+            </div>
+            
+
+            <div class="news">
+                <h1>Moustapaha Senghor</h1>
+                <div class="news_contend">
+                    <div class="new">
+                        <i class="fa-solid fa-map-pin"></i>
+                        <p>liberté 6 Extension</p>
+                        <p class="dakar2">Dakar</p>
+                    </div>
+    
+                    <div class="new">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+221  771948683</p>
+                    </div>
+    
+                    <div class="new">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>Papytygeer69@gmail.com</p>
+                    </div>
+
+                    
+
+                  
+                </div>
+                </div>
+
+        </li>
+
+    </div>
+</section>
+<script src="carte.js"></script>
+<script src="slide.js"></script>
+</body>
+</html>
